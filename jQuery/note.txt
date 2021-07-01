@@ -1,0 +1,14 @@
+Latest files on jsDelivr CDN (https://www.jsdelivr.com/package/npm/jquery-validation)
+
+https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js
+https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js
+https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/additional-methods.js
+https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/additional-methods.min.js
+
+Latest files on cdnjs CDN (https://cdnjs.com/libraries/jquery-validate)
+
+https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.js
+https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js
+https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/additional-methods.js
+https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/additional-methods.min.js
+

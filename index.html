@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My static site</title>
+    <link rel="stylesheet" href="/bootstrap/assets/dist/css/bootstrap.min.css">
+    <link href="features.css" rel="stylesheet">
+    <script type="text/javascript" src="/jQuery/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="/jQuery/jquery-validation-1.19.3/dist/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="/validate/javascript.js"></script>
+  </head>
+
+<div class="container py-3">
+    <header>
+      <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+          <img src="../ff13.png" alt="Final Fantasy" width="40" height="40">
+          <span class="fs-4">Welcome to my static site</span>
+        </a>
+  
+        <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+          <a class="me-3 py-2 text-dark text-decoration-none" href="/folio/index.html">About Me</a>
+          <a class="me-3 py-2 text-dark text-decoration-none" href="#animal">My Array</a>
+          <a class="me-3 py-2 text-dark text-decoration-none" href="/games/index.html">My Fav Games</a>
+          <a class="me-3 py-2 text-dark text-decoration-none" href="/login/index.html">Masuk</a>
+          <a class="py-2 text-dark text-decoration-none" href="/harga/index.html">Daftar</a>
+        </nav>
+      </div>
+  
+      <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">Hello there I'm Robby</h1>
+            <p class="lead text-muted">Everything on here can be changed at anytime</p>
+            <p>
+              <a href="#registration" class="btn btn-primary my-2">Insert Your Name</a>
+              <a href="#destinations" class="btn btn-secondary my-2">Show Destinations</a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </header>
+</div>
+
+
+<div class="container px-4 py-5" id="custom-cards">
+  <h2 class="pb-2 border-bottom">My cards</h2>
+
+  <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+    <div class="col">
+      <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('1.png');">
+        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+          <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">This is My Battlefield</h2>
+          <ul class="d-flex list-unstyled mt-auto">
+            <li class="me-auto">
+              <img src="/ff13.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+            </li>
+            <li class="d-flex align-items-center me-3">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+              <small>Left</small>
+            </li>
+            <li class="d-flex align-items-center">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+              <small>1d</small>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('2.png');">
+        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+          <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">The long war that never ended</h2>
+          <ul class="d-flex list-unstyled mt-auto">
+            <li class="me-auto">
+              <img src="/ff13.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+            </li>
+            <li class="d-flex align-items-center me-3">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+              <small>Center</small>
+            </li>
+            <li class="d-flex align-items-center">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+              <small>2d</small>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('3.png');">
+        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+          <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">The war that set on world war 3 One of my favourit shooter games Battlefield 1  </h2>
+          <ul class="d-flex list-unstyled mt-auto">
+            <li class="me-auto">
+              <img src="/ff13.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+            </li>
+            <li class="d-flex align-items-center me-3">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+              <small>Right</small>
+            </li>
+            <li class="d-flex align-items-center">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+              <small>3d</small>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<body>
+    <div class="container form">
+        <h1>Registration Form</h1>
+        <form id="registration">
+            <div class="form-group row">
+                <div class="col">
+                    <label for="firstName">First Name:</label>
+                    <input id="firstName" type="text" class="form-control">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col">
+                    <label for="lastName">Last Name:</label>
+                    <input id="lastName" type="text" class="form-control">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col">
+                    <label for="email">Email:</label>
+                    <input id="email" type="text" class="form-control">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col">
+                    <label for="password">Password:</label>
+                    <input id="password" type="password" class="form-control">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col">
+                    <label for="confirmPassword">Confirm Password:</label>
+                    <input id="confirmPassword" type="password" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button class="btn btn-primary btn-block" type="submit">
+                        Register
+                    </button>
+                </div>
+            </div>
+        </form>
+      </div>
+    <p id="animal"></p>
+    <p id="cat">
+    <h1>Destinations</h1>
+    <ul id="destinations">
+        <li>Yogyakarta</li>
+        <li>Bandung</li>
+        <li>Jakarta</li>
+            <ul>
+                <li>Jakarta Pusat</li>
+                <li>Jakarta Utara</li>
+                <li>Jakarta Selatan</li>
+                <li>Jakarta Barat</li>
+                <li id="here">Jakarta Timur</li>
+            </ul>
+        <li>Surabaya</li>
+        <li>Bali</li>
+        <li>Lombok</li>
+        <li>Aceh</li>
+    </ul>
+<button id="btn">Where am I??</button>
+
+    <script>
+        $(document).ready(function(){   //menunggu dokumen hingga full load
+            $("#btn").click(function()  //action yg terjadi ketika memanggil id btn
+            {
+                $("#here").css("background-color", "orange"); //melakukan perubahan warna pada id here
+            });
+        });
+    </script>
+<script>
+// Wait for the DOM to be ready
+$(function() {
+  // Initialize form validation on the registration form.
+  // It has the name attribute "registration"
+  $("form[name='registration']").validate({
+    // Specify validation rules
+    rules: {
+      // The key name on the left side is the name attribute
+      // of an input field. Validation rules are defined
+      // on the right side
+      firstName: "required",
+      lastName: "required",
+      email: {
+        required: true,
+        // Specify that email should be validated
+        // by the built-in "email" rule
+        email: true
+      },
+      password: {
+        required: true,
+        minlength: 5
+      }
+    },
+    // Specify validation error messages
+    messages: {
+      firstName: "Please enter your firstname",
+      lastName: "Please enter your lastname",
+      password: {
+        required: "Please provide a password",
+        minlength: "Your password must be at least 5 characters long"
+      },
+      email: "Please enter a valid email address"
+    },
+    // Make sure the form is submitted to the destination defined
+    // in the "action" attribute of the form when valid
+    submitHandler: function(form) {
+      form.submit();
+    }
+  });
+});
+</script>
+
+<script>
+  class Animal {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+
+  greet() {
+    console.log("Halo");
+  }
+
+  info() {
+    this.greet();
+    console.log(`Nama saya adalah ${this.name}`);
+    console.log(`Saya berusia ${this.age} tahun`);
+  }
+}
+
+class Dog extends Animal {
+  constructor(name, age, breed) {
+    super(name, age);
+    this.breed = breed;
+  }
+  
+  info() {
+    this.greet();
+    console.log(`Nama saya adalah ${this.name}`);
+    console.log(`Saya adalah seekor ${this.breed}`);
+    
+    console.log(`Saya berusia ${this.age} tahun`);
+    const humanAge = this.getHumanAge();
+    console.log(`Saya berusia ${humanAge} tahun dalam umur manusia`);
+  }
+  
+  getHumanAge() {
+    return this.age * 7;
+  }
+}
+
+const dog = new Dog("Leo", 4, "Chihuahua");
+dog.info();
+
+document.getElementById("animal").innerHTML = Object.values(dog);
+
+let kucing = {
+    nama: "Chiko",
+    kelamin: "Laki-laki",
+    jenis: "Anggora",
+    warna: "Belang hitam putih",
+    tinggi: "20cm",
+    kelahiran: "20 Desember 2012",
+};
+
+document.getElementById("cat").innerHTML = kucing.nama + ", " + kucing.kelamin + ", " + kucing.jenis + ", " + kucing.warna + ", " + kucing.tinggi + ", " + kucing.kelahiran;
+
+</script>
+
+
+
+
+
+<script>
+var $animation_elements = $('#custom-cards');
+var $window = $(window);
+
+function check_if_in_view() {
+  var window_height = $window.height();
+  var window_top_position = $window.scrollTop();
+  var window_bottom_position = (window_top_position + window_height);
+
+  $.each($animation_elements, function() {
+    var $element = $(this);
+    var element_height = $element.outerHeight();
+    var element_top_position = $element.offset().top;
+    var element_bottom_position = (element_top_position + element_height);
+
+    //check to see if this current container is within viewport
+    if ((element_bottom_position >= window_top_position) &&
+      (element_top_position <= window_bottom_position)) {
+      $element.addClass('in-view');
+    } else {
+      $element.removeClass('in-view');
+    }
+  });
+}
+
+$window.on('scroll resize', check_if_in_view);
+$window.trigger('scroll');
+</script>
+</body>
+</html>
